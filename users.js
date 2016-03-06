@@ -322,6 +322,7 @@ var User = (function () {
 
 	User.prototype.blockChallenges = false;
 	User.prototype.ignorePMs = false;
+	User.prototype.answeringMachineIgnorePMs = 'This user is blocking private messages right now.';
 	User.prototype.lastConnected = 0;
 
 	User.prototype.sendTo = function(roomid, data) {
